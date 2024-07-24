@@ -55,6 +55,7 @@ notes-list li {
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 10px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -70,7 +71,8 @@ notes-list li {
 
 #notes-list li button {
     align-self: flex-end;
-    background-color: #d9534f;
+    margin-bottom: 10px;
+    background-color: #e67571;
     border: none;
     border-radius: 5px;
     color: #fff;
