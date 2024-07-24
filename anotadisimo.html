@@ -12,6 +12,13 @@
         <form id="note-form">
             <input type="text" id="note-title" placeholder="Título de la nota" required>
             <textarea id="note-content" placeholder="Contenido de la nota" required></textarea>
+            <!--Agregamos un selector de prioridad-->
+            <div id="priority-container">
+                <div class="priority-circle low" data-priority="low"></div>
+                <div class="priority-circle medium" data-priority="medium"></div>
+                <div class="priority-circle high" data-priority="high"></div>
+            </div>
+            <button type="button" id="set-priority">Asignar prioridad</button>
             <button type="submit">Añadir Nota</button>
         </form>
         <!--Lista de notas-->
